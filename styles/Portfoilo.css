@@ -10,19 +10,20 @@ body {
 }
 
 .primary-btn {
-    border-radius: 5px;
-    background: #fd6e0a;
-    border: 0;
-    color: white;
-    font-size: 20px;
-    padding: 18px 35px 19px 36px;
-    font-weight: 700;
-  }
+  border-radius: 5px;
+  background: #fd6e0a;
+  border: 0;
+  color: white;
+  font-size: 20px;
+  padding: 18px 35px 19px 36px;
+  font-weight: 700;
+}
 /* Nav related style */
 nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin: 0px 200px;
 }
 
 .nav-title {
@@ -46,4 +47,29 @@ nav a {
   color: #474747;
 }
 
+/* header */
+.header {
+  background-color: #fff8f3;
+}
 
+.banner {
+  padding: 30px 30px 30px 150px;
+  display: flex;
+  align-items: center;
+}
+
+.secondary-btn {
+  background-color: transparent;
+  color: #fd6e0a;
+  border: 1px solid #fd6e0a;
+  margin-left: 30px;
+  color: #fd6e0a;
+  text-align: center;
+  font-family: Open Sans;
+  font-size: 20px;
+  font-weight: 700;
+}
+.profile-picture {
+  width: 584px;
+  height: 676px;
+}
